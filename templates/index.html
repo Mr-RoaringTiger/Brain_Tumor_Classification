@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumor Image Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Tumor Image Prediction</h1>
+        <p>Upload an image and let the model predict the tumor category.</p>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".jpg,.png">
+            <button type="submit">Upload and Predict</button>
+        </form>
+    </div>
+</body>
+</html>
