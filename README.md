@@ -9,3 +9,6 @@ Machine Learning Algorithms Utilized:
 
 Deployment:
 For deployment, the Random Forest Classifier was selected due to its high accuracy and ability to handle complex data with less risk of overfitting.
+The project includes two frontend implementations to interact with the classification model:
+rf_classifier_prediction.py: Utilizes Streamlit to provide an interactive web interface for users to input tumor data and receive predictions. Streamlit offers a simple and intuitive way to build web applications for data science projects.
+app.py: Implements a Flask-based web application, allowing users to interact with the model through a more traditional web server setup. Flask provides flexibility for building web applications and integrating with various back-end services.
